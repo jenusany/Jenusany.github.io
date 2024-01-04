@@ -1,0 +1,36 @@
+body{
+    background-color: #BFE1FF;
+}
+header{
+    background-color: white;
+    border-radius: 1em;
+    padding:2em;
+}
+img{
+    width: 20em;
+    margin: auto;
+}
+.inline{
+    display: inline;
+}
+.descrip{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    color:rgb(97, 100, 112);
+    padding-left: 2em;
+    position: absolute;
+}
+.school{
+    color:rgb(147, 154, 172);
+}
+.sm{
+    height: 3em;
+    width: auto;
+    margin: auto;
+}
+.buttons{
+    width: 30%;
+}
+a {
+    color: white;
+}
