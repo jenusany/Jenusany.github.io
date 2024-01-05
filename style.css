@@ -33,7 +33,7 @@ img{
 a {
     color: white;
 }
-.about{
+.main{
     background-color: white;
     border-radius: 1em;
     margin: auto;
@@ -41,9 +41,9 @@ a {
     width: 100%;
     color:rgb(97, 100, 112);
     padding-bottom: 2em;
-    margin-top: 0;
+    margin-top: 0; 
 }
-.contacts{
+.side{
     background-color: white;
     border-radius: 1em;
     margin: auto;
@@ -79,10 +79,52 @@ a {
     flex-wrap: wrap;
 }
 fieldset{
+    border: none;
 }
 div{
-    border: 1px solid black;
 }
 .buttons{
     margin: auto;
+}
+.skills{
+    margin-top: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+p { 
+    font-size: 20px; 
+} 
+
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 80%; 
+    border-radius: 15px; 
+} 
+
+.skill { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(116, 194, 92); 
+    color: white; 
+    padding: 1%; 
+    text-align: center; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+
+.bar{
+    padding-left: 20%;
+} 
+
+.html { 
+    width: 60%; 
+} 
+
+.Python { 
+    width: 90%; 
+} 
+
+.lang{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
 }
