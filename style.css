@@ -1,6 +1,8 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #BFE1FF;
+    height: 120vh;
+    overflow-y: scroll;
 }
 header{
     background-color: white;
@@ -15,10 +17,10 @@ img{
     display: inline;
 }
 .descrip{
-    font-size: 1.4em;
+    font-size: 1.6em;
     color:rgb(97, 100, 112);
     padding-left: 2em;
-    position: absolute;
+    width: 70%;
 }
 .school{
     color:rgb(147, 154, 172);
@@ -28,14 +30,10 @@ img{
     width: auto;
     margin: auto;
 }
-.buttons{
-    width: 30%;
-}
 a {
     color: white;
 }
 .about{
-    position: absolute;
     background-color: white;
     border-radius: 1em;
     margin: auto;
@@ -50,13 +48,15 @@ a {
     margin: auto;
     margin-right: 0;
     color:rgb(97, 100, 112);
-    width: 25%;
+    width: 28%;
+    margin-top: 0;
 }
 .stuff{
     display: flex;
     margin-top: 1em;
 }
 .head{
+    font-size: 3em;
     text-align: center;
 }
 .desc{
@@ -65,21 +65,24 @@ a {
     width: 80%;
     margin: auto;
 }
-main{
-    height: auto;
-}
 .contact{
+    position: absolute;
+    margin-top: 1em;
     height: 3em;
     width: auto;
-    padding-left: 2em;
 }
 .contact-info{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin: auto;
-    position: absolute;
-    padding-left: 1em;
+    font-size: 1.2em;
+    padding-left: 3em;
+    flex-wrap: wrap;
+}
+fieldset{
+    border: none;
 }
 div{
-    border:1px solid black;
+
+}
+.buttons{
+    margin: auto;
 }
