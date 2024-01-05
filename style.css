@@ -37,11 +37,12 @@ a {
     background-color: white;
     border-radius: 1em;
     margin: auto;
-    margin-left: 0;
-    width: 100%;
+    width: 99%;
     color:rgb(97, 100, 112);
     padding-bottom: 2em;
     margin-top: 0; 
+    margin-left: 0;
+    margin-right: 1em;
 }
 .side{
     background-color: white;
@@ -49,7 +50,7 @@ a {
     margin-right: 0;
     color:rgb(97, 100, 112);
     width: 100%;
-    margin-top: -10%;
+    margin-top: 0;
 }
 .stuff{
     display: flex;
@@ -123,4 +124,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 0;
+}
+.experience{
+    margin-top: 1em;
 }
