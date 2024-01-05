@@ -1,29 +1,44 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #BFE1FF;
+    font-family:  Helvetica,Arial,sans-serif;
+    background-color: rgb(28,29,36) ;
     height: 120vh;
     overflow-y: scroll;
 }
 header{
-    background-color: white;
+    border: 1px solid white;
     border-radius: 1em;
     padding:2em;
+    height: 100vh;
+    width: auto;
 }
 img{
     width: 20em;
-    margin: auto;
 }
 .inline{
     display: inline;
 }
 .descrip{
     font-size: 1.6em;
-    color:rgb(97, 100, 112);
+    color:white;
     padding-left: 2em;
     width: 70%;
+    margin-top: 0;
+}
+.open{
+    font-size: 1.6em;
+    color: white;
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.test{
+    margin: auto;
 }
 .school{
-    color:rgb(147, 154, 172);
+    font-size: 1em;
+    font-family:  'Times New Roman', Times, serif;
+    color: white;
 }
 .sm{
     height: 3em;
@@ -79,9 +94,9 @@ a {
     flex-wrap: wrap;
 }
 fieldset{
-    border: none;
 }
 div{
+    border: 1px solid white;
 }
 .skills{
     margin-top: 1em;
