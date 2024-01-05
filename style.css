@@ -38,9 +38,10 @@ a {
     border-radius: 1em;
     margin: auto;
     margin-left: 0;
-    width: 70%;
+    width: 100%;
     color:rgb(97, 100, 112);
     padding-bottom: 2em;
+    margin-top: 0;
 }
 .contacts{
     background-color: white;
@@ -48,7 +49,7 @@ a {
     margin: auto;
     margin-right: 0;
     color:rgb(97, 100, 112);
-    width: 28%;
+    width: 100%;
     margin-top: 0;
 }
 .stuff{
@@ -78,10 +79,9 @@ a {
     flex-wrap: wrap;
 }
 fieldset{
-    border: none;
 }
 div{
-
+    border: 1px solid black;
 }
 .buttons{
     margin: auto;
