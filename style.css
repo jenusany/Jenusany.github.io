@@ -46,11 +46,10 @@ a {
 .side{
     background-color: white;
     border-radius: 1em;
-    margin: auto;
     margin-right: 0;
     color:rgb(97, 100, 112);
     width: 100%;
-    margin-top: 0;
+    margin-top: -10%;
 }
 .stuff{
     display: flex;
@@ -82,9 +81,6 @@ fieldset{
     border: none;
 }
 div{
-}
-.buttons{
-    margin: auto;
 }
 .skills{
     margin-top: 1em;
