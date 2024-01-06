@@ -81,18 +81,6 @@ a {
     width: 80%;
     margin: auto;
 }
-.contact{
-    position: absolute;
-    margin-top: 1em;
-    height: 3em;
-    width: auto;
-}
-.contact-info{
-    font-family:  Helvetica,Arial,sans-serif;
-    font-size: 1.2em;
-    padding-left: 3em;
-    flex-wrap: wrap;
-}
 .skills{
     margin-top: 1em;
     padding-bottom: 20em;
@@ -189,7 +177,7 @@ p {
 .experience{
     margin: auto;
     text-align: center;
-    padding-bottom: 30em;
+    padding-bottom: 5em;
 }
 .projects{
     border-radius: 10px;
@@ -214,6 +202,21 @@ p {
 .individual-projects{
     padding-bottom: 5em;
 }
+
+.contact{
+    background-color: rgb(45, 45, 55) ;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+.contact-methods{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5em;
+}
+.contact-info{
+    text-align: center;
+}
+
 
 fieldset{
     border: none;
