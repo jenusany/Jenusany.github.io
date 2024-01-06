@@ -216,3 +216,6 @@ p {
 .contact-info{
     text-align: center;
 }
+fieldset{
+    border: none;
+}
