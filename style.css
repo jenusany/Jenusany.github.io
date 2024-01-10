@@ -213,9 +213,16 @@ p {
     margin: auto;
     padding-bottom: 5em;
 }
+
+.contact-buttons{
+    width: 10%;
+    margin: auto;
+}
+
 .contact-info{
     text-align: center;
 }
+
 fieldset{
     border: none;
 }
