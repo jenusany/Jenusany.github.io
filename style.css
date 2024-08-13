@@ -83,9 +83,31 @@ a {
 }
 .skills{
     margin-top: 1em;
-    padding-bottom: 20em;
     padding-top: 1em;
+    padding-bottom: 5em;
+    margin-bottom: 20em;
 }
+
+.techBox{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 3em;
+}
+
+.skillsbox{
+    background-color: rgb(54, 56, 69);
+    border-radius: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+.tech{
+    height: 5em;
+    width: auto;
+    margin: auto;
+}
+
 p { 
     font-size: 20px; 
 } 
